@@ -1,0 +1,5 @@
+find . -name "*~"
+find . -name "*#*"
+-print
+-delete
+-o
