@@ -1,1 +1,2 @@
--find . type -f ls(-name “*~” -o “*#*”/) -print -delete
+find . type -f (/-name “*~” -o -name “#*#”/) -print -delete
+
